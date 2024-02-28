@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location and IP Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <h2>Location and IP Display</h2>
+        <button id="fetchLocationBtn">Display Location</button>
+        <button id="fetchBothBtn">Display IP With Location</button>
+
+        <div id="locationInfo">
+            <p><strong>Latitude:</strong> <span id="latitude"></span></p>
+            <p><strong>Longitude:</strong> <span id="longitude"></span></p>
+            <p id="ipv4AddressInfo" style="display: none;">
+                <strong>IPv4 Address:</strong>
+                <span id="ipv4Address"></span>
+            </p>
+            <button id="clearLocationBtn">Clear</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
